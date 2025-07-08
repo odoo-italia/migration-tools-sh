@@ -1,0 +1,30 @@
+# Copyright 2015  Davide Corio <davide.corio@abstract.it>
+# Copyright 2015-2018  Lorenzo Battistini - Agile Business Group
+# Copyright 2016  Alessio Gerace - Agile Business Group.
+# Copyright 2018  Ruben Tonetto (Associazione PNLUG - Gruppo Odoo)
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+
+{
+    "name": "ITA - Scissione pagamenti",
+    "version": "18.0.1.0.1",
+    "category": "Localization/Italy",
+    "summary": "Scissione pagamenti",
+    "author": "Abstract, Agile Business Group, Odoo Community Association (OCA)",
+    "website": "https://github.com/odoo-italia/migration-tools-sh",
+    "license": "AGPL-3",
+    "depends": [
+        "account",
+    ],
+    "data": [
+        # "data/account_tax_group_data.xml",
+        # "views/account_view.xml",
+        # "views/config_view.xml",
+    ],
+    "images": [
+        "static/fiscal_position.png",
+        "static/settings.png",
+        "static/SP.png",
+        "static/SP2.png",
+    ],
+    "installable": True,
+}
