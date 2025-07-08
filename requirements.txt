@@ -2,3 +2,4 @@
 asn1crypto
 elementpath
 openupgradelib
+unidecode
